@@ -1,0 +1,35 @@
+name: earthquake_app
+description: "Earthquake list, date filters and location search using USGS."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.3
+  provider: ^6.1.5+1
+  http: ^1.6.0
+  geolocator: ^14.1.2
+  geocoding: ^5.0.0
+  flutter_easyloading: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+
